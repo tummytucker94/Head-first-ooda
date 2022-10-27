@@ -10,7 +10,7 @@ public class Inventory {
     }
 
     public void addGuitar(String serialNumber, double price, String builder, String model, String type, String backWood, String topWood){
-        Guitar guitar = new Guitar();
+        Guitar guitar = new Guitar("", 0, Builder.FENDER, "Stratocastor", Type.ELECTRIC, Wood.ALDER, Wood.ALDER);
         guitars.add(guitar);
     }
 

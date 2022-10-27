@@ -11,7 +11,7 @@ public class Guitar {
         return serialNumber;
     }
 
-    public Guitar() {
+    public Guitar(String serialNumber, int price, Builder fender, String stratocastor, Type electric, Wood alder, Wood wood) {
     }
 
     public Guitar(String serialNumber, double price, String builder, String model, String type, String backWood, String topWood) {
