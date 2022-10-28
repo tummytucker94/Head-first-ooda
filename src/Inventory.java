@@ -9,7 +9,7 @@ public class Inventory {
         guitars = new LinkedList<Guitar>();
     }
 
-    public void addGuitar(String serialNumber, double price, String builder, String model, String type, String backWood, String topWood){
+    public void addGuitar(String serialNumber, double price, Builder builder, String model, Type type, Wood backWood, Wood topWood){
         Guitar guitar = new Guitar("", 0, Builder.FENDER, "Stratocastor", Type.ELECTRIC, Wood.ALDER, Wood.ALDER);
         guitars.add(guitar);
     }
